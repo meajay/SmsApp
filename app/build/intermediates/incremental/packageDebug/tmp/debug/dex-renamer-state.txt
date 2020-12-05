@@ -1,0 +1,4 @@
+#Sat Dec 05 15:34:34 IST 2020
+base.0=/Users/docsa/work/SampleSmsApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

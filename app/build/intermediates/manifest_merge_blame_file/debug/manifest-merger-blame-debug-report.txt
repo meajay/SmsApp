@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="assignment.com.smsapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_SMS" />
+11-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+12-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:7:5-70
+12-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:7:22-67
+13
+14    <application
+14-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:9:5-38:19
+15        android:name="assignment.com.smsapplication.SmsApp"
+15-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:10:9-31
+16        android:allowBackup="true"
+16-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@drawable/ic_textsms"
+21-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:14:9-49
+22        android:supportsRtl="true"
+22-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:16:9-40
+25        <activity
+25-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:18:9-29:20
+26            android:name="assignment.com.smsapplication.sms.view.SmsActivity"
+26-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:19:13-49
+27            android:exported="true"
+27-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:20:13-36
+28            android:label="@string/app_name"
+28-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:21:13-45
+29            android:launchMode="singleTask"
+29-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:22:13-44
+30            android:screenOrientation="portrait" >
+30-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:23:13-49
+31            <intent-filter>
+31-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:25:17-69
+32-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:27:17-77
+34-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <receiver
+38-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:31:9-37:20
+39            android:name="assignment.com.smsapplication.receiver.SmsReceiver"
+39-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:32:13-49
+40            android:permission="android.permission.BROADCAST_SMS" >
+40-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:33:13-66
+41            <intent-filter>
+41-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:34:13-36:29
+42                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+42-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:35:17-82
+42-->/Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:35:25-79
+43            </intent-filter>
+44        </receiver>
+45
+46        <activity
+46-->[pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:12:9-16:66
+47            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+47-->[pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:13:13-86
+48            android:exported="false"
+48-->[pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:14:13-37
+49            android:label=""
+49-->[pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:15:13-29
+50            android:theme="@style/EasyPermissions.Transparent" />
+50-->[pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:16:13-63
+51    </application>
+52
+53</manifest>
