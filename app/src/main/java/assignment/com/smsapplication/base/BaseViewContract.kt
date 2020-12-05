@@ -1,0 +1,3 @@
+package assignment.com.smsapplication.base
+
+interface BaseViewContract

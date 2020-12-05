@@ -4,7 +4,7 @@
             "outputFile": "/Users/docsa/work/SampleSmsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/docsa/.gradle/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/docsa/.gradle/caches/transforms-2/files-2.1/440a42af63e946d026b0dc1b26cd36bd/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

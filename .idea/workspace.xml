@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bacc8337-bda8-4cd6-bfb3-c010d3ea4f23" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="b9fec6177d31" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -26,6 +35,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="b9fec6177d31" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-05T10:04:19.576Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,7 +53,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -82,6 +93,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1607165534076">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607165534076" />
+    <state width="699" height="245" key="GridCell.Tab.0.bottom" timestamp="1607163947600">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607163947600" />
+    <state width="699" height="245" key="GridCell.Tab.0.center" timestamp="1607163947599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607163947599" />
+    <state width="699" height="245" key="GridCell.Tab.0.left" timestamp="1607163947599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607163947599" />
+    <state width="699" height="245" key="GridCell.Tab.0.right" timestamp="1607163947599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607163947599" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1607102999080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -90,9 +121,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1607102937996" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607103420412">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607183015503">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607103420412" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607183015503" />
   </component>
 </project>

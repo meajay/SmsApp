@@ -4,40 +4,41 @@ ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-4
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
-MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3650ec8bf0dcc8ccaa9d86d2cec22c9f/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:2:1-19:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8b75a198c63daf512e8348b47c22b6d8/jetified-butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/0a45b9f5a804f431ab5c9e5594066e13/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:18:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7ced6c91ac482bc6e6ce9aa80fc65495/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b1af4f2bb3cdb8a270b23f3dd207998b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e4b23f27b516885f30f88745bd59df16/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be0b3c7258e6da73a16db7ad25cbd1f2/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3e66fdbb8aadd34180980691833492b3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/cd02317c23e662d0fa4ab88d0d0916d7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/10fcddba391b31bd86d702ee5aeb2035/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/dee56812972f65c48f33f011a0d23568/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1e931abee3afbede18629b7ccd33d0ef/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f082c57b244577a22e1236d38388ce52/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3d4027c244b2f1092dbbdb3fa0c4c39b/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e492391935922ce61c196b0901270ddd/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/a3ff52c02bd8c6ecf6b5c868009ecb0c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e62f873cf4263d40c7b89017e7a83d01/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/78ecae9c2f22493c6a91e24a1a2d4820/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f21ecb78568f62b9cfdf7ce8b84f47c1/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/054204406b27658dc74d8b19f547bed5/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6a6af4ea2fadaa66c773f3ffe79910a7/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/65c3d4650b10035e3c16dbbe7955e172/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d9dbd6370ba9b8e96ed8b52d4470e4f4/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/026cd5532561f6142861fe7758bd8424/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/440a42af63e946d026b0dc1b26cd36bd/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/62206c251959d2045c0791ca33a6f4c7/jetified-butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6bc7a7b9f8ccb7513485f9c14c8c0b07/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:18:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/9940178e27dac024b2606d93969dd481/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/333dd50a7e1354bbff43f45c9c0f794f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7fa5300d1a426124801b37faea388ce9/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/877911c86899ac9739807fe00f3b9585/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.core:core-ktx:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8124fa140867742fec0ab29bd1d04228/jetified-core-ktx-1.5.0-alpha05/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/91e36efa706f2eeef879c37aec900901/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/47105ec65afaab90342f7031f85273d1/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1ad476826a232af2e3729ac1511b44d4/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ba1e435709b74c02ed32a36d36130eb3/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/809c268c3b1df84843f66c9e6b5ef42c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d2d7f3689322104d217d90b1dad0ce28/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1a4aa1d4008adec26540f5a0f7d7f6e8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b0c1caf357e7d213dc8e8d3409d689ce/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/aabb98e726515110efb469543e4f310f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8e48e8d26f3f74cbbcccda8e877748ea/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ff8888da03cedd5a9b571ee03b09fda5/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/23c8f979ca3b3930d23ebce8a3e74de9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/c0c408ccd6f594fc97a6ee6ccea29fa4/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2af3c54f06bbd2c725fd1b9d586aa0a2/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d5c30ce41bcc8d8eb75de4c546ea5f6e/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/74bc923d5177b7a08443cef963471d7c/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f736685c3fd66023c5f08b1bc33c3a98/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7c1b0e6107c20633f36c6b2af50e671d/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e2a3735ff9243806e38d1c20da9caf8/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6cd5b810cbbf4e25719dcf072217d0d9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e9cb21fd647d3da608a3f9492cc5b1b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e19ff6bba3809159dad284a45537691e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/13cea7c73d16bb1d8c74d1d0b661ae21/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:2:1-40:12
@@ -67,20 +68,20 @@ ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:7:5-7
 		ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:7:22-67
 application
 ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:9:5-38:19
-MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3650ec8bf0dcc8ccaa9d86d2cec22c9f/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3650ec8bf0dcc8ccaa9d86d2cec22c9f/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:11:5-17:19
-MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:11:5-17:19
-MERGED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f21ecb78568f62b9cfdf7ce8b84f47c1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f21ecb78568f62b9cfdf7ce8b84f47c1/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d9dbd6370ba9b8e96ed8b52d4470e4f4/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
-MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d9dbd6370ba9b8e96ed8b52d4470e4f4/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/026cd5532561f6142861fe7758bd8424/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/026cd5532561f6142861fe7758bd8424/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2af3c54f06bbd2c725fd1b9d586aa0a2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2af3c54f06bbd2c725fd1b9d586aa0a2/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/13cea7c73d16bb1d8c74d1d0b661ae21/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/13cea7c73d16bb1d8c74d1d0b661ae21/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
@@ -135,74 +136,76 @@ uses-sdk
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3650ec8bf0dcc8ccaa9d86d2cec22c9f/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3650ec8bf0dcc8ccaa9d86d2cec22c9f/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be6327719512c19af6e3dfcc948c3a09/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8b75a198c63daf512e8348b47c22b6d8/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8b75a198c63daf512e8348b47c22b6d8/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/0a45b9f5a804f431ab5c9e5594066e13/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:24:5-26:41
-MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/0a45b9f5a804f431ab5c9e5594066e13/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:24:5-26:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7ced6c91ac482bc6e6ce9aa80fc65495/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7ced6c91ac482bc6e6ce9aa80fc65495/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b1af4f2bb3cdb8a270b23f3dd207998b/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b1af4f2bb3cdb8a270b23f3dd207998b/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e4b23f27b516885f30f88745bd59df16/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e4b23f27b516885f30f88745bd59df16/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be0b3c7258e6da73a16db7ad25cbd1f2/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/be0b3c7258e6da73a16db7ad25cbd1f2/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3e66fdbb8aadd34180980691833492b3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3e66fdbb8aadd34180980691833492b3/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/cd02317c23e662d0fa4ab88d0d0916d7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/cd02317c23e662d0fa4ab88d0d0916d7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/10fcddba391b31bd86d702ee5aeb2035/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/10fcddba391b31bd86d702ee5aeb2035/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/dee56812972f65c48f33f011a0d23568/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/dee56812972f65c48f33f011a0d23568/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1e931abee3afbede18629b7ccd33d0ef/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1e931abee3afbede18629b7ccd33d0ef/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f082c57b244577a22e1236d38388ce52/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f082c57b244577a22e1236d38388ce52/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3d4027c244b2f1092dbbdb3fa0c4c39b/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3d4027c244b2f1092dbbdb3fa0c4c39b/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e492391935922ce61c196b0901270ddd/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e492391935922ce61c196b0901270ddd/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/a3ff52c02bd8c6ecf6b5c868009ecb0c/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/a3ff52c02bd8c6ecf6b5c868009ecb0c/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e62f873cf4263d40c7b89017e7a83d01/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e62f873cf4263d40c7b89017e7a83d01/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/78ecae9c2f22493c6a91e24a1a2d4820/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/78ecae9c2f22493c6a91e24a1a2d4820/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/395caf503a19363977c06465a7c114a5/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f21ecb78568f62b9cfdf7ce8b84f47c1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f21ecb78568f62b9cfdf7ce8b84f47c1/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/054204406b27658dc74d8b19f547bed5/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/054204406b27658dc74d8b19f547bed5/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6a6af4ea2fadaa66c773f3ffe79910a7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6a6af4ea2fadaa66c773f3ffe79910a7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/65c3d4650b10035e3c16dbbe7955e172/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/65c3d4650b10035e3c16dbbe7955e172/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d9dbd6370ba9b8e96ed8b52d4470e4f4/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
-MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d9dbd6370ba9b8e96ed8b52d4470e4f4/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/bcce0cde9859e67630ed7a2387cb1e9c/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/026cd5532561f6142861fe7758bd8424/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/docsa/.gradle/caches/transforms-2/files-2.1/026cd5532561f6142861fe7758bd8424/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/440a42af63e946d026b0dc1b26cd36bd/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/440a42af63e946d026b0dc1b26cd36bd/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/62206c251959d2045c0791ca33a6f4c7/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/62206c251959d2045c0791ca33a6f4c7/jetified-butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6bc7a7b9f8ccb7513485f9c14c8c0b07/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.sharish:ShimmerRecyclerView:v1.3] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6bc7a7b9f8ccb7513485f9c14c8c0b07/jetified-ShimmerRecyclerView-v1.3/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/9940178e27dac024b2606d93969dd481/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/9940178e27dac024b2606d93969dd481/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/333dd50a7e1354bbff43f45c9c0f794f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/333dd50a7e1354bbff43f45c9c0f794f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7fa5300d1a426124801b37faea388ce9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7fa5300d1a426124801b37faea388ce9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/877911c86899ac9739807fe00f3b9585/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/877911c86899ac9739807fe00f3b9585/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.core:core-ktx:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8124fa140867742fec0ab29bd1d04228/jetified-core-ktx-1.5.0-alpha05/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8124fa140867742fec0ab29bd1d04228/jetified-core-ktx-1.5.0-alpha05/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/91e36efa706f2eeef879c37aec900901/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/91e36efa706f2eeef879c37aec900901/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/47105ec65afaab90342f7031f85273d1/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/47105ec65afaab90342f7031f85273d1/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1ad476826a232af2e3729ac1511b44d4/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1ad476826a232af2e3729ac1511b44d4/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ba1e435709b74c02ed32a36d36130eb3/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ba1e435709b74c02ed32a36d36130eb3/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/809c268c3b1df84843f66c9e6b5ef42c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/809c268c3b1df84843f66c9e6b5ef42c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d2d7f3689322104d217d90b1dad0ce28/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d2d7f3689322104d217d90b1dad0ce28/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1a4aa1d4008adec26540f5a0f7d7f6e8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/1a4aa1d4008adec26540f5a0f7d7f6e8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b0c1caf357e7d213dc8e8d3409d689ce/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/b0c1caf357e7d213dc8e8d3409d689ce/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/aabb98e726515110efb469543e4f310f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/aabb98e726515110efb469543e4f310f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8e48e8d26f3f74cbbcccda8e877748ea/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8e48e8d26f3f74cbbcccda8e877748ea/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ff8888da03cedd5a9b571ee03b09fda5/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/docsa/.gradle/caches/transforms-2/files-2.1/ff8888da03cedd5a9b571ee03b09fda5/jetified-butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/23c8f979ca3b3930d23ebce8a3e74de9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/23c8f979ca3b3930d23ebce8a3e74de9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/c0c408ccd6f594fc97a6ee6ccea29fa4/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/c0c408ccd6f594fc97a6ee6ccea29fa4/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha05] /Users/docsa/.gradle/caches/transforms-2/files-2.1/3effe4fb79a57c3e17a8e10fcdf42d0b/core-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2af3c54f06bbd2c725fd1b9d586aa0a2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2af3c54f06bbd2c725fd1b9d586aa0a2/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d5c30ce41bcc8d8eb75de4c546ea5f6e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/d5c30ce41bcc8d8eb75de4c546ea5f6e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/74bc923d5177b7a08443cef963471d7c/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/74bc923d5177b7a08443cef963471d7c/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f736685c3fd66023c5f08b1bc33c3a98/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/f736685c3fd66023c5f08b1bc33c3a98/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7c1b0e6107c20633f36c6b2af50e671d/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/7c1b0e6107c20633f36c6b2af50e671d/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e2a3735ff9243806e38d1c20da9caf8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e2a3735ff9243806e38d1c20da9caf8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6cd5b810cbbf4e25719dcf072217d0d9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/6cd5b810cbbf4e25719dcf072217d0d9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e9cb21fd647d3da608a3f9492cc5b1b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/2e9cb21fd647d3da608a3f9492cc5b1b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e19ff6bba3809159dad284a45537691e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/e19ff6bba3809159dad284a45537691e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/13cea7c73d16bb1d8c74d1d0b661ae21/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/13cea7c73d16bb1d8c74d1d0b661ae21/jetified-shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -214,12 +217,12 @@ INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 		ADDED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/docsa/work/SampleSmsApp/app/src/main/AndroidManifest.xml
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
-ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:12:9-16:66
+ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:12:9-16:66
 	android:label
-		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:15:13-29
+		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:15:13-29
 	android:exported
-		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:14:13-37
+		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:14:13-37
 	android:theme
-		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:16:13-63
+		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:16:13-63
 	android:name
-		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/8af1619ac9617338a0af99583a257b88/jetified-easypermissions-1.3.0/AndroidManifest.xml:13:13-86
+		ADDED from [pub.devrel:easypermissions:1.3.0] /Users/docsa/.gradle/caches/transforms-2/files-2.1/43ee92475b8c84e5376f26684945ca4c/jetified-easypermissions-1.3.0/AndroidManifest.xml:13:13-86
