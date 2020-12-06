@@ -13,7 +13,7 @@ class SmsReceiver : BroadcastReceiver() {
         val bundle = intent.extras
         val msgs: Array<SmsMessage?>
         val format = bundle!!.getString("format")
-        val pdus = bundle["pdus"] as Array<Any>?
+        val pdus = bundle["pdus"] as Array<*>?
         if (pdus != null) {
             val isVersionM = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
             msgs = arrayOfNulls(pdus.size)

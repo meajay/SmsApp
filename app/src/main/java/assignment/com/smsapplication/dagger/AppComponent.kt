@@ -6,7 +6,7 @@ import assignment.com.smsapplication.sms.view.SmsActivity
 import dagger.Component
 
 @AppScope
-@Component(modules = [assignment.com.smsapplication.dagger.AppModule::class, PresenterModule::class])
+@Component(modules = [AppModule::class, PresenterModule::class])
 interface AppComponent {
     fun inject(smsApp: SmsApp?)
     fun inject(smsActivity: SmsActivity?)

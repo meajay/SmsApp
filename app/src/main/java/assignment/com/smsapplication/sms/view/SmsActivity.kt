@@ -2,11 +2,16 @@ package assignment.com.smsapplication.sms.view
 
 import android.Manifest
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
+import android.view.View
+import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import assignment.com.smsapplication.R
 import assignment.com.smsapplication.SmsApp
 import assignment.com.smsapplication.constants.AppConstants
@@ -23,10 +28,13 @@ import java.util.*
 import javax.inject.Inject
 import kotlin.collections.ArrayList
 
-class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.SmsMvpView, PermissionCallbacks {
+class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     @JvmField
     @BindView(R.id.sms_recycler)
-    var smsRecycler: ShimmerRecyclerView? = null
+    var smsRecycler: RecyclerView? = null
+    @JvmField
+    @BindView(R.id.progress_circular)
+    var progressView : ProgressBar? = null
 
     @JvmField
     @Inject
@@ -48,7 +56,7 @@ class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         fetchInBoxMessages()
-        smsRecycler!!.showShimmerAdapter()
+//        smsRecycler!!.showShimmerAdapter()
     }
 
     override fun onPermissionsGranted(requestCode: Int, perms: List<String>) {
@@ -77,8 +85,8 @@ class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.
     }
 
     override fun onGetInboxMessagesResponse(result: Int, smsList: List<Sms?>?, message: String?) {
+        progressView?.visibility = View.GONE
         if (result == AppConstants.SUCCESS) {
-            this.smsList.clear()
             updateAdapter(smsList)
         } else {
             Toast.makeText(this, "Error : $message", Toast.LENGTH_SHORT).show()
@@ -87,15 +95,15 @@ class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.
 
     fun updateAdapter(smsList: List<Sms?>?) {
         val handler = Handler()
-        handler.postDelayed({ smsRecycler!!.hideShimmerAdapter() }, 2000)
+//        handler.postDelayed({ smsRecycler!!.hideShimmerAdapter() }, 2000)
         if (smsList != null) {
-            for(sms in smsList){
+            for(sms in smsList) {
                 if (sms != null) {
                     this.smsList.add(sms)
                 }
             }
-                smsAdapter!!.notifyDataSetChanged()
         }
+        smsAdapter?.notifyDataSetChanged()
     }
 
     private fun checkAndRequestSMSPermission() {
@@ -107,7 +115,8 @@ class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.
     }
 
     private fun fetchInBoxMessages() {
-        smsPresenter!!.allInBoxMessages
+        smsPresenter!!.allInBoxMessages()
+        progressView?.visibility = View.VISIBLE
     }
 
     private fun injectDependencies() {
@@ -125,6 +134,17 @@ class SmsActivity : AppCompatActivity(), assignment.com.smsapplication.sms.view.
                 , false)
         smsAdapter = SmsAdapter(this, smsList)
         smsRecycler!!.adapter = smsAdapter
-        smsRecycler!!.showShimmerAdapter()
+//        smsRecycler!!.showShimmerAdapter()
+        smsRecycler!!.addOnScrollListener(onScrollChanged)
     }
+
+    private val onScrollChanged = object : RecyclerView.OnScrollListener(){
+        override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+            super.onScrollStateChanged(recyclerView, newState)
+            if (!recyclerView.canScrollVertically(1) && newState==RecyclerView.SCROLL_STATE_IDLE) {
+                fetchInBoxMessages()
+            }
+        }
+    }
+
 }

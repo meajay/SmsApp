@@ -52,6 +52,8 @@ dependencies {
     implementation 'com.github.sharish:ShimmerRecyclerView:v1.3'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.0.0"
+    implementation "androidx.lifecycle:lifecycle-livedata:2.0.0"
 }
 repositories {
     mavenCentral()
