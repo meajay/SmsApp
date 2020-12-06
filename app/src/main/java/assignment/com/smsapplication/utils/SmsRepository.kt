@@ -12,26 +12,23 @@ import javax.inject.Singleton
 
 
 class SmsRepository(private val context: Context) {
-    private var currentTime = 0L
     private var countNumber = 0
-    private var countHoursAgo = true
     private var loopCounter = 0
     private var totalSMS = 0
+    private var hourCounter = -1
+    private var dayNotSelected = true
     fun fetchAllInboxSms(): Observable<SmsResponse> {
         val cr = context.contentResolver
         val c = cr.query(Telephony.Sms.Inbox.CONTENT_URI, null, null,
                 null, Telephony.Sms.Inbox.DEFAULT_SORT_ORDER)
         val smsList: MutableList<Sms> = ArrayList()
-        currentTime = System.currentTimeMillis()
         loopCounter = countNumber
         countNumber += 15
-        val localCount = countNumber
-        countHoursAgo = true
         if (c != null) {
 
             totalSMS = c.count
             if (c.moveToPosition(loopCounter)) {
-                while(loopCounter  < localCount) {
+                while(loopCounter  < countNumber) {
                     val sms = Sms()
                     sms.date = c.getString(c.getColumnIndexOrThrow(Telephony.Sms.Inbox.DATE))
                     sms.sender = c.getString(c.getColumnIndexOrThrow(Telephony.Sms.Inbox.ADDRESS))
@@ -55,15 +52,19 @@ class SmsRepository(private val context: Context) {
     }
 
     private fun getHoursAgo(time: String): String {
-        if (countHoursAgo) {
-            val diff = currentTime - java.lang.Long.valueOf(time)
-            val hours = diff.toInt() / (60000 * 60)
-            if (hours < 13 && countNumber != hours) {
-                countNumber = hours
-                return hours.toString() + "hours ago"
-            } else if (hours > 24 && countNumber != hours) {
-                countHoursAgo = false
-                return 1.toString() + "day ago"
+        if (dayNotSelected) {
+            val diff = System.currentTimeMillis() - java.lang.Long.valueOf(time)
+            val hours = ( diff / (60000 * 60) ).toInt()
+            if(hours==0 && hourCounter!=hours){
+                hourCounter = hours
+                return "Latest"
+            }
+            if (hours in 1..12 && hourCounter!=hours ) {
+                hourCounter = hours
+                return "$hours hours ago"
+            } else if (hours > 24 && dayNotSelected) {
+                dayNotSelected = false
+                return 1.toString() + " day ago"
             }
         }
         return ""
