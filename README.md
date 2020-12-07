@@ -22,6 +22,6 @@ App uses Telephony.SMS apis provided by google.
 Retrofit,RxJava,Dagger,Shimmer RecyclerView ,Butterknife, Easy permissions and other design libraries.
 
 #ScreenShots
-![altText]https://github.com/meajay/SmsApp/blob/master/app/WhatsApp%20Image%202020-12-07%20at%201.17.04%20PM.jpeg
-![altText]https://github.com/meajay/SmsApp/blob/master/app/WhatsApp%20Image%202020-12-07%20at%201.16.05%20PM.jpeg
+![alt text](https://github.com/meajay/SmsApp/blob/master/app/WhatsApp%20Image%202020-12-07%20at%201.17.04%20PM.jpeg)
+![alt text](https://github.com/meajay/SmsApp/blob/master/app/WhatsApp%20Image%202020-12-07%20at%201.16.05%20PM.jpeg)
 
