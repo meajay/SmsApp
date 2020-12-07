@@ -19,7 +19,6 @@
             android:name=".sms.view.SmsActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

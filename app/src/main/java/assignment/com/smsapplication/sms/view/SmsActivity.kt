@@ -2,13 +2,11 @@ package assignment.com.smsapplication.sms.view
 
 import android.Manifest
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.os.Handler
+import android.util.Log
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,13 +18,10 @@ import assignment.com.smsapplication.sms.presenter.SmsPresenter
 import assignment.com.smsapplication.utils.AppPermissions
 import butterknife.BindView
 import butterknife.ButterKnife
-import com.cooltechworks.views.shimmer.ShimmerRecyclerView
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import pub.devrel.easypermissions.EasyPermissions.PermissionCallbacks
-import java.util.*
 import javax.inject.Inject
-import kotlin.collections.ArrayList
 
 class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     @JvmField
@@ -56,14 +51,14 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         fetchInBoxMessages(true)
-//        smsRecycler!!.showShimmerAdapter()
     }
 
-//    override fun onResume() {
-//        super.onResume()
-//        smsList.clear()
-//        checkAndRequestSMSPermission()
-//    }
+
+    override fun onPause() {
+        super.onPause()
+        smsRecycler?.stopScroll()
+    }
+
 
     override fun onPermissionsGranted(requestCode: Int, perms: List<String>) {
         if (requestCode == AppConstants.READ_SMS_PERMISIONS) {
@@ -150,9 +145,13 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
 
     private val onScrollChanged = object : RecyclerView.OnScrollListener(){
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
-            super.onScrollStateChanged(recyclerView, newState)
-            if (!recyclerView.canScrollVertically(1) && newState==RecyclerView.SCROLL_STATE_IDLE) {
-                fetchInBoxMessages(false)
+            try {
+                super.onScrollStateChanged(recyclerView, newState)
+                if (!recyclerView.canScrollVertically(1) && newState == RecyclerView.SCROLL_STATE_IDLE) {
+                    fetchInBoxMessages(false)
+                }
+            } catch (ex: Exception) {
+                Log.d("EXCEPTION",ex.message.toString())
             }
         }
     }
