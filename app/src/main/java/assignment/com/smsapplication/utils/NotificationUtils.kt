@@ -50,6 +50,8 @@ class NotificationUtils(private val context: Context) {
                 .setAutoCancel(true)
                 .setContentIntent(resultPendingIntent)
                 .setStyle(inboxStyle)
+                .setPriority(Notification.PRIORITY_MAX)
+                 .setVibrate(longArrayOf(0))
                 .setChannelId(CHANNEL_ID)
                 .setLargeIcon(BitmapFactory.decodeResource(context.resources, icon))
                 .setContentText(message)

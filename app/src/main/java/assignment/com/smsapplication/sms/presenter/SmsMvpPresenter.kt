@@ -1,5 +1,5 @@
 package assignment.com.smsapplication.sms.presenter
 
 interface SmsMvpPresenter {
-    fun allInBoxMessages()
+    fun allInBoxMessages(reset : Boolean)
 }

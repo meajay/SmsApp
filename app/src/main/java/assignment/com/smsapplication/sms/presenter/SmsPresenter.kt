@@ -13,8 +13,8 @@ class SmsPresenter  @Inject constructor(
         var smsRepository: SmsRepository): BasePresenter<SmsMvpView?>(), SmsMvpPresenter {
 
 
-    override fun allInBoxMessages() {
-        val d: Disposable = smsRepository.fetchAllInboxSms().subscribeOn(Schedulers.io())
+    override fun allInBoxMessages(reset : Boolean) {
+        val d: Disposable = smsRepository.fetchAllInboxSms(reset).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread()).subscribe({ smsResponse ->
                     view?.onGetInboxMessagesResponse(AppConstants.SUCCESS,
                             smsResponse.smsList, "success")

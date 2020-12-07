@@ -17,12 +17,17 @@ class SmsRepository(private val context: Context) {
     private var totalSMS = 0
     private var hourCounter = -1
     private var dayNotSelected = true
-    fun fetchAllInboxSms(): Observable<SmsResponse> {
+    fun fetchAllInboxSms(resetAll : Boolean): Observable<SmsResponse> {
         val cr = context.contentResolver
         val c = cr.query(Telephony.Sms.Inbox.CONTENT_URI, null, null,
                 null, Telephony.Sms.Inbox.DEFAULT_SORT_ORDER)
         val smsList: MutableList<Sms> = ArrayList()
-        loopCounter = countNumber
+        if(resetAll){
+            loopCounter = 0
+        }
+        else {
+            loopCounter = countNumber
+        }
         countNumber += 15
         if (c != null) {
 

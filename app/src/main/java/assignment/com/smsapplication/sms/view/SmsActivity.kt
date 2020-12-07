@@ -49,19 +49,25 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
         injectDependencies()
         smsPresenter?.onAttach(this)
         appPermissions = AppPermissions(this)
-        checkAndRequestSMSPermission()
         setUpRecyclerView()
+        checkAndRequestSMSPermission()
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        fetchInBoxMessages()
+        fetchInBoxMessages(true)
 //        smsRecycler!!.showShimmerAdapter()
     }
 
+//    override fun onResume() {
+//        super.onResume()
+//        smsList.clear()
+//        checkAndRequestSMSPermission()
+//    }
+
     override fun onPermissionsGranted(requestCode: Int, perms: List<String>) {
         if (requestCode == AppConstants.READ_SMS_PERMISIONS) {
-            fetchInBoxMessages()
+            fetchInBoxMessages(true)
         }
     }
 
@@ -108,16 +114,22 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
 
     private fun checkAndRequestSMSPermission() {
         if (appPermissions?.hasSmsPermission()!!) {
-            fetchInBoxMessages()
+            fetchInBoxMessages(true)
         } else {
             requestSmsPermission()
         }
     }
 
-    private fun fetchInBoxMessages() {
-        smsPresenter!!.allInBoxMessages()
+    private fun fetchInBoxMessages(reset : Boolean) {
+        smsPresenter!!.allInBoxMessages(reset)
         progressView?.visibility = View.VISIBLE
+        if(reset){
+            smsList.clear()
+            smsRecycler?.smoothScrollToPosition(0)
+        }
+
     }
+
 
     private fun injectDependencies() {
         (application as SmsApp).getAppComponent()!!.inject(this)
@@ -126,7 +138,7 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     private fun requestSmsPermission() {
         EasyPermissions.requestPermissions(this, getString(R.string.sms_required),
                 AppConstants.READ_SMS_PERMISIONS,
-                Manifest.permission.READ_SMS)
+                Manifest.permission.READ_SMS,Manifest.permission.RECEIVE_SMS)
     }
 
     private fun setUpRecyclerView() {
@@ -142,7 +154,7 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
             if (!recyclerView.canScrollVertically(1) && newState==RecyclerView.SCROLL_STATE_IDLE) {
-                fetchInBoxMessages()
+                fetchInBoxMessages(false)
             }
         }
     }
