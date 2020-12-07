@@ -16,6 +16,7 @@ import assignment.com.smsapplication.constants.AppConstants
 import assignment.com.smsapplication.sms.model.Sms
 import assignment.com.smsapplication.sms.presenter.SmsPresenter
 import assignment.com.smsapplication.utils.AppPermissions
+import assignment.com.smsapplication.utils.SharedPrefUtils
 import butterknife.BindView
 import butterknife.ButterKnife
 import pub.devrel.easypermissions.AppSettingsDialog
@@ -50,13 +51,18 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        fetchInBoxMessages(true)
+        if(SharedPrefUtils.getResetValue(this)) {
+            fetchInBoxMessages(true)
+            SharedPrefUtils.setResetValue(this, false)
+        }
     }
 
-
-    override fun onPause() {
-        super.onPause()
-        smsRecycler?.stopScroll()
+    override fun onResume() {
+        super.onResume()
+        if(SharedPrefUtils.getResetValue(this)){
+            fetchInBoxMessages(true)
+            SharedPrefUtils.setResetValue(this,false)
+        }
     }
 
 
@@ -114,12 +120,13 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     }
 
     private fun fetchInBoxMessages(reset : Boolean) {
-        smsPresenter!!.allInBoxMessages(reset)
-        progressView?.visibility = View.VISIBLE
         if(reset){
             smsList.clear()
-            smsRecycler?.smoothScrollToPosition(0)
         }
+        progressView?.visibility = View.VISIBLE
+        smsPresenter!!.allInBoxMessages(reset)
+
+
 
     }
 

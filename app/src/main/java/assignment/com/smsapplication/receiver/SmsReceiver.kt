@@ -7,10 +7,12 @@ import android.os.Build
 import android.telephony.SmsMessage
 import android.util.Log
 import assignment.com.smsapplication.utils.NotificationUtils
+import assignment.com.smsapplication.utils.SharedPrefUtils
 
 class SmsReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val bundle = intent.extras
+        SharedPrefUtils.setResetValue(context,true)
         val msgs: Array<SmsMessage?>
         val format = bundle!!.getString("format")
         val pdus = bundle["pdus"] as Array<*>?
