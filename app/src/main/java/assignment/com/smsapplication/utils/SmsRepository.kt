@@ -24,6 +24,9 @@ class SmsRepository(private val context: Context) {
         val smsList: MutableList<Sms> = ArrayList()
         if(resetAll){
             loopCounter = 0
+            hourCounter = -1
+            dayNotSelected = true
+            countNumber = 0
         }
         else {
             loopCounter = countNumber

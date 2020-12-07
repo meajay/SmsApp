@@ -100,8 +100,6 @@ class SmsActivity : AppCompatActivity(),SmsMvpView, PermissionCallbacks {
     }
 
     fun updateAdapter(smsList: List<Sms?>?) {
-        val handler = Handler()
-//        handler.postDelayed({ smsRecycler!!.hideShimmerAdapter() }, 2000)
         if (smsList != null) {
             for(sms in smsList) {
                 if (sms != null) {
